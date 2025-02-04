@@ -355,7 +355,14 @@ span {
 
 .portfolio-box img {
     width: 100%;
+    transition: .5s ease;
 }
+
+.portfolio-box:hover img {
+    transform: scale(1.1);
+}
+
+
 
 .portfolio-box .portfolio-layer {
     position: absolute;
@@ -371,6 +378,12 @@ span {
     flex-direction: column;
     text-align: center;
     padding: 0 4rem;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.portfolio-box:hover .portfolio-layer {
+    opacity: 1;
 }
 
 .portfolio-layer h4 {
@@ -390,4 +403,27 @@ span {
     height: 5rem;
     background: var(--white-color);
     border-radius: 50%;
+
 }
+
+.portfolio-layer a i {
+    font-size: 2rem;
+    color: #333;
+}
+
+.testimonial-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 5rem 1rem;
+}s
+
+.testimonial-container .testimonial-wrapper {
+    position: relative;
+    max-width: 90rem;
+    width: 100%;
+    padding: 5rem;
+}
+
+.testimonial-slide
