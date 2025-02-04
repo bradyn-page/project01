@@ -426,4 +426,7 @@ span {
     padding: 5rem;
 }
 
-.testimonial-slide
+.testimonial-content .testimonial-slide {
+    display: flex;
+    align-items: center;
+}
