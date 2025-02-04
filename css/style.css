@@ -123,7 +123,7 @@ section {
 .home-content h1{
     font-size: 5.6rem;
     font-weight: 700;
-    margin-bottom: .3rem;
+ /*  margin-bottom: .3rem;*/
 }
 .home-content p{
     font-size: 1.6rem;
@@ -140,7 +140,7 @@ section {
     box-shadow: 0 .2rem .5rem var(--shadow-color);
     font-size: 2rem;
     color: var(--main-color);
-    margin: 2.5rem 1.5rem 3 rem 0;
+    margin: 2.5rem 1.5rem 3rem 0;
     transition: .5s ease;
 }
 
@@ -158,19 +158,12 @@ section {
     color: var(--white-color);
     letter-spacing: .1rem;
     font-weight: 600;
-}
-.btn{
-    display: inline-block;
-    padding: 1.2rem 2.8rem;
-    background: var(--main-color);
-    border-radius: .6rem;
-    box-shadow: 0 .2rem .5rem var(--shadow-color);
-    font-size: 1.6rem;
-    color: var(--white-color);
-    letter-spacing: .1rem;
-    font-weight: 600;
-    border: .2rem solid transparent;
     transition: .5s ease;
+}
+
+.btn:hover{
+    background: transparent;
+    color: var(--main-color);
 }
 .home .profession-container{
     position: absolute;
