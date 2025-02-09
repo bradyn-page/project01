@@ -10,6 +10,11 @@
 
             <!-- box icons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    
     </head>
 
     <body>
@@ -182,18 +187,34 @@
         <h2 class="heading">Valuable <span>Testimonials</span></h2>
 
         <div class="testimonial-wrapper">
-            <div class="testimonial-box">
-                <div class="testimonial-content">
-                    <div class="testimonial-slide">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/test1.jpg" alt="">
+                        <h3>Jackson Levi</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quis velit, autem quos suscipit deleniti ducimus perferendis placeat minus voluptatum aperiam minima quidem sit! Nobis mollitia minus in totam dicta est, nemo exercitationem enim molestiae cupiditate veniam aperiam et ratione!</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/test1.jpg" alt="">
+                        <h3>Jackson Levi</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quis velit, autem quos suscipit deleniti ducimus perferendis placeat minus voluptatum aperiam minima quidem sit! Nobis mollitia minus in totam dicta est, nemo exercitationem enim molestiae cupiditate veniam aperiam et ratione!</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
                         <img src="images/test1.jpg" alt="">
                         <h3>Jackson Levi</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quis velit, autem quos suscipit deleniti ducimus perferendis placeat minus voluptatum aperiam minima quidem sit! Nobis mollitia minus in totam dicta est, nemo exercitationem enim molestiae cupiditate veniam aperiam et ratione!</p>
                     </div>
                 </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </div>
 
+    <!--swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!--custom js-->
     <script src="js/script.js"></script>
