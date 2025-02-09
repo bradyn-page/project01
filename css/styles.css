@@ -64,6 +64,12 @@ body{
     opacity: .9;
 }
 
+#menu-icon {
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
+}
+
 .logo {
     font-size: 2.5rem;
     color: var(--main-color);
@@ -561,3 +567,44 @@ span {
     font-size: 2.4rem;
     color: #333;
 }
+
+/*breakpoints*/
+/*dekstop*/
+@media (max-width: 1200px) {
+    html {
+      font-size: 55%;  
+    }
+
+    .home .profession-container {
+        height: 85.8rem; 
+    }
+
+    .home .profession-container {
+        right: -12rem;
+        height: 85.8rem;
+    }
+
+    .home .profession-container .overlay{
+        right: -9rem;
+    }
+}
+
+/*tablet*/
+@media (max-width: 1024px) {
+    .header {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+
+    .home .profession-container .profession-box {
+        right: -22rem;
+    }
+    .home .profession-container .overlay{
+        right: -15rem;
+    }
+}
+
+/*mobile*/
